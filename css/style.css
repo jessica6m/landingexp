@@ -36,4 +36,36 @@ body {
   font-size: 5rem;
   color: white;
   text-align: center;
+  transition: 0.5s;
+}
+
+@media (max-width: 1000px) {
+  .landing {
+    font-size: 3rem;
+  }
+}
+
+ @media (max-width: 700px) {
+   .landing {
+     background-image: url(../images/citysm.jpeg);
+     background-position: center;
+   }
+ }
+
+.row {
+  display: flex;
+  font-size: 3rem;
+}
+
+.col-3 {
+  width: 33.33%;
+}
+
+@media (max-width: 700px) {
+  .row{
+    display: block;
+  }
+  .col-3 {
+    width: 100%;
+  }
 }
