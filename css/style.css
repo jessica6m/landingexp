@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,5 +7,33 @@
 }
 
 html {
-  background: pink;
+  font-size: 10px;
+  font-family: 'Barlow Semi Condensed', 'Arial', sans-serif;
+}
+
+body {
+  padding-top: 5rem;
+}
+
+.top-nav {
+  background: #000;
+  /*Remove later on if not needed*/
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.landing {
+  background-image: url(../images/city2md.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 5rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: white;
+  text-align: center;
 }
